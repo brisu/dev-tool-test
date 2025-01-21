@@ -13,7 +13,7 @@ def random_action(user_input):
 
 def main():
     print("Welcome! Enter a word or sentence, and I'll do something random with it.")
-    user_input = input("Enter your input: ")
+    user_input = input("Enter your input : ")
     result = random_action(user_input)
     print(f"Here are the results of the random action: {result}")
 
